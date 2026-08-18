@@ -1,0 +1,15 @@
+{
+  "name": "resort",
+  "version": "1.0.0",
+  "description": "resort bookings ",
+  "license": "ISC",
+  "author": "Akash Gaikwad",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
