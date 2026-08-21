@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "u001",
+    "name": "Likeeth G",
+    "email": "Likeeth@gmail.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-1.jpg"
+  },
+  {
+    "_id": "u002",
+    "name": "Abhishekh",
+    "email": "Abhishekh@gmail.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-2.jpg"
+  },
+  {
+    "_id": "u003",
+    "name": "Manasi Masi",
+    "email": "Manasi@gmail.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-3.jpg"
+  },
+  {
+    "_id": "u004",
+    "name": "patrick ",
+    "email": "patrick@gmail.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-4.jpg"
+  },
+  {
+    "_id": "u005",
+    "name": "Vikram Desai",
+    "email": "vikram@example.com",
+    "role": "admin",
+    "active": true,
+    "photo": "user-5.jpg"
+  },
+  {
+    "_id": "u006",
+    "name": "Ananya Rao",
+    "email": "ananya@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-6.jpg"
+  },
+  {
+    "_id": "u007",
+    "name": "Karan Joshi",
+    "email": "karan@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-7.jpg"
+  },
+  {
+    "_id": "u008",
+    "name": "Meera Nair",
+    "email": "meera@example.com",
+    "role": "user",
+    "active": true,
+    "photo": "user-8.jpg"
+  }
+]

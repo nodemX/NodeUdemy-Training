@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "rv001",
+    "review": "Beautiful property and very peaceful location.",
+    "rating": 5,
+    "user": "u001",
+    "resort": "r001"
+  },
+  {
+    "_id": "rv002",
+    "review": "Good rooms and friendly staff, but breakfast could be better.",
+    "rating": 4,
+    "user": "u002",
+    "resort": "r001"
+  },
+  {
+    "_id": "rv003",
+    "review": "Excellent valley view and clean rooms.",
+    "rating": 5,
+    "user": "u003",
+    "resort": "r002"
+  },
+  {
+    "_id": "rv004",
+    "review": "Nice location and good value for a weekend stay.",
+    "rating": 4,
+    "user": "u004",
+    "resort": "r002"
+  },
+  {
+    "_id": "rv005",
+    "review": "The pool and villa were excellent.",
+    "rating": 5,
+    "user": "u006",
+    "resort": "r003"
+  },
+  {
+    "_id": "rv006",
+    "review": "A little expensive, but the property was very comfortable.",
+    "rating": 4,
+    "user": "u007",
+    "resort": "r003"
+  },
+  {
+    "_id": "rv007",
+    "review": "Perfect place for a quiet nature getaway.",
+    "rating": 5,
+    "user": "u001",
+    "resort": "r004"
+  },
+  {
+    "_id": "rv008",
+    "review": "Amazing lake views and a great bonfire experience.",
+    "rating": 5,
+    "user": "u008",
+    "resort": "r004"
+  },
+  {
+    "_id": "rv009",
+    "review": "Great resort with lots of amenities and good food.",
+    "rating": 4,
+    "user": "u002",
+    "resort": "r005"
+  },
+  {
+    "_id": "rv010",
+    "review": "The villa was fantastic and the staff were helpful.",
+    "rating": 5,
+    "user": "u003",
+    "resort": "r005"
+  },
+  {
+    "_id": "rv011",
+    "review": "Beautiful surroundings and very relaxing stay.",
+    "rating": 5,
+    "user": "u004",
+    "resort": "r006"
+  },
+  {
+    "_id": "rv012",
+    "review": "Tree house was a great experience. Would visit again.",
+    "rating": 5,
+    "user": "u006",
+    "resort": "r006"
+  }
+]
