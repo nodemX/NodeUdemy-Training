@@ -1,73 +1,25 @@
 const fs = require("fs");
 const express = require("express");
 const app = express();
-const port = 3000;
+const morgan = require("morgan");
+const resortRouter = require("./routes/resortRoutes");
+const userRouter = require("./routes/userRoutes");
 
-const resorts = JSON.parse(
-  fs.readFileSync(`${__dirname}/data/resorts.json`, "utf-8"),
-);
-
+// MIDDLEWARES
+app.use(morgan("dev"));
 app.use(express.json());
 app.use("/", (req, res, next) => {
+  req.timeDate = new Date().toISOString();
+  console.log(req.timeDate);
   console.log("middleware");
-  //   res.write("Hello, from the express server!");
   next();
 });
 
-app.get("/api/v1/resorts/:id", (req, res) => {
-  const id = req.params.id;
-  console.log(req.params.id);
-  const resortsbyid = resorts.find((el) => el.id === id);
-  console.log(resortsbyid);
-  if (!resortsbyid) {
-    res.status(404).json({
-      message: "fail",
-      Error: "Invalid ID",
-    });
-  } else res.status(200).json({ resortsbyid });
-});
+// ROUTE HANDLERS
 
-app.get("/api/v1/resorts", (req, res) => {
-  res.status(200).json({ resorts });
-});
+app.use("/api/v1/resorts", resortRouter);
+app.use("/api/v1/users", userRouter);
 
-app.patch("/api/v1/resorts/:id", (req, res) => {
-  const id = req.params.id;
-  console.log(id);
-  const newPrice = req.body.pricePerNight;
-  console.log(newPrice);
+//   START SERVER
 
-  const resortsbyid = resorts.find((el) => el.id === id);
-  console.log(resorts);
-  if (!resortsbyid) {
-    res.status(404).json({
-      message: "fail",
-      Error: "Invalid ID",
-    });
-  } else {
-    resortsbyid.pricePerNight = newPrice;
-    console.log(resortsbyid);
-    console.log(resorts);
-    fs.writeFile(
-      `${__dirname}/data/resorts.json`,
-      JSON.stringify(resorts),
-      () => {
-        res.json({
-          resorts,
-        });
-      },
-    );
-  }
-});
-
-app.patch("/api/v1/resorts", (req, res) => {
-  res.send("page for PATCH !");
-});
-
-// app.delete("/api/v1/resorts", (req, res) => {
-//   res.send("page for DELETE !");
-// });
-
-app.listen(port, "127.0.0.1", () => {
-  console.log(`server is running on port ${port}....`);
-});
+module.exports = app;
