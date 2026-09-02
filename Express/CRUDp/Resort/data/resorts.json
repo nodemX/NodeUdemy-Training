@@ -247,7 +247,7 @@
       "Swimming Pool",
       "Garden"
     ],
-    "pricePerNight": 780,
+    "pricePerNight": 884,
     "maxGuests": 4,
     "summary": "A peaceful hillside retreat overlooking the valleys of Panchgani.",
     "description": "A comfortable mountain getaway offering scenic valley views, spacious rooms and easy access to Panchgani's natural attractions."
@@ -283,13 +283,49 @@
       "Swimming Pool",
       "Garden"
     ],
-    "pricePerNight": 6299,
+    "pricePerNight": 888,
     "maxGuests": 4,
     "summary": "A peaceful hillside retreat overlooking the valleys of Panchgani.",
     "description": "A comfortable mountain getaway offering scenic valley views, spacious rooms and easy access to Panchgani's natural attractions."
   },
   {
     "id": "r009",
+    "name": "Valley View Retreat",
+    "location": {
+      "description": "Panchgani, Maharashtra, India",
+      "type": "Point",
+      "coordinates": [
+        17.9246,
+        73.8078
+      ],
+      "address": "Table Land Road, Panchgani, Maharashtra"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 28,
+    "images": [
+      "resort-7-1.jpg",
+      "resort-7-2.jpg",
+      "resort-7-3.jpg"
+    ],
+    "roomTypes": [
+      "Valley View Room",
+      "Deluxe Suite",
+      "Private Cottage"
+    ],
+    "amenities": [
+      "WiFi",
+      "Restaurant",
+      "Parking",
+      "Swimming Pool",
+      "Garden"
+    ],
+    "pricePerNight": 888,
+    "maxGuests": 4,
+    "summary": "A peaceful hillside retreat overlooking the valleys of Panchgani.",
+    "description": "A comfortable mountain getaway offering scenic valley views, spacious rooms and easy access to Panchgani's natural attractions."
+  },
+  {
+    "id": "r010",
     "name": "Valley View Retreat",
     "location": {
       "description": "Panchgani, Maharashtra, India",
